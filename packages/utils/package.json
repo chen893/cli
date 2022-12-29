@@ -1,0 +1,25 @@
+{
+  "name": "@imooc-cli-dev-csl/utils",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "chenshuanglong <chenshuanglong@meituan.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/utils.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "scripts": {
+    "test": "node ./__tests__/utils.test.js"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
