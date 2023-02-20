@@ -20,6 +20,10 @@
     "test": "node ./__tests__/utils.test.js"
   },
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "minimist": "1.2.5",
+    "npmlog": "^7.0.1",
+    "path-exists": "4.0.0",
+    "user-home": "2.0.0"
   }
 }

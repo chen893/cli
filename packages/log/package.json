@@ -1,0 +1,32 @@
+{
+  "name": "@imooc-cli-dev-csl/log",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "chenshuanglong <chenshuanglong@meituan.com>",
+  "homepage": "https://github.com/chen893/cli#readme",
+  "license": "ISC",
+  "main": "lib/log.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chen893/cli.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/@imooc-cli-dev-csl/log.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/chen893/cli/issues"
+  },
+  "dependencies": {
+    "npmlog": "^7.0.1"
+  }
+}
